@@ -1,0 +1,518 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: spanish-quotes\n"
+"POT-Creation-Date: 2016-05-28 13:26+0200\n"
+"PO-Revision-Date: 2016-05-28 13:27+0200\n"
+"Last-Translator: Joan Miquel Viadé <jmviade@gmail.com>\n"
+"Language-Team: jmviade@gmail.com\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/backend-interface.php:81
+msgid "WP filter <em>the_content</em>"
+msgstr "Filtro WP <em>the_content</em>"
+
+#: includes/backend-interface.php:86
+msgid "WP filter the content"
+msgstr "Uso del filtro WP the content"
+
+#: includes/backend-interface.php:91
+msgid ""
+"Check this field if you want to apply the WP filter <code>the_content</code> "
+"to the quote text before displaying it."
+msgstr ""
+"Marca este campo si deseas aplicar el filtro WP <code>the_content</code> al "
+"texto de la Frase antes de mostrarlo."
+
+#: includes/backend-interface.php:109
+msgid "Custom CSS"
+msgstr "CSS Personalizado"
+
+#: includes/backend-interface.php:114
+msgid "Enter your Custom CSS"
+msgstr "Introduce tu código CSS personalizado"
+
+#: includes/backend-interface.php:129
+msgid "Maximum Length"
+msgstr "Longitud Máxima"
+
+#: includes/backend-interface.php:134
+msgid ""
+"Introduce the maximum length for the quotes in characters. Default value, "
+"<strong>275</strong>. (The minimum length is set to 50)"
+msgstr ""
+"Introduce la longitud máxima para las frases en caracteres. Valor por "
+"defecto, <strong>275</strong>. (La longitud mínima se ha fijado en 50)"
+
+#: includes/backend-interface.php:149 includes/backend-interface.php:154
+msgid "Asyncronous Mode"
+msgstr "Modo Asíncrono"
+
+#: includes/backend-interface.php:159
+msgid "Check this field to activate the asynchronous fetching operation mode."
+msgstr ""
+"Marca este campo para activar el modo de funcionamiento con búsqueda "
+"asíncrona."
+
+#: includes/backend-interface.php:161
+msgid ""
+"The Asynchronous Fetching Operation Mode produces a better average page load "
+"performance however, this mode could be <strong>incompatible with some "
+"client side systems</strong> and, in addition, some times it's a much less "
+"stable. We advise you <strong>do not activate</strong> the asynchronous mode "
+"unless your website <strong>really</strong> has a high level of hits per day "
+"(>40,000). By default, the asynchronous fetching operation mode is disabled."
+msgstr ""
+"El Modo de Funcionamiento con Búsqueda Asíncrona proporciona un mejor tiempo "
+"medio de carga de página sin embargo, este modo puede ser incompatible con "
+"algunos sistemas en el lado cliente y, además, algunas veces es bastante "
+"menos estable. Te recomendamos que <strong>no actives</strong> el modo "
+"asíncrono a menos que tu sitio web <strong>realmente</strong> tenga un alto "
+"volumen de visitas al día (>40.000). Por defecto el modo de funcionamiento "
+"con búsqueda asíncrona está desactivado."
+
+#: includes/backend-interface.php:193
+msgid "Global Options"
+msgstr "Opciones Globales"
+
+#: includes/backend-interface.php:194
+msgid "Style Options"
+msgstr "Opciones de Estilo"
+
+#: includes/backend-interface.php:195
+msgid "Instructions"
+msgstr "Instrucciones"
+
+#: includes/messages-interface.php:35
+#, php-format
+msgid "<p><strong>%s</strong> %s <strong>%s</strong> %s.</p>"
+msgstr "<p><strong>%s</strong> %s <strong>%s</strong> %s.</p>"
+
+#: includes/messages-interface.php:36 includes/messages-interface.php:48
+#: includes/messages-interface.php:75 includes/messages-interface.php:122
+msgid "Spanish Quote of the Day"
+msgstr "Frase del Día"
+
+#: includes/messages-interface.php:37
+msgid "version"
+msgstr "versión"
+
+#: includes/messages-interface.php:39
+msgid "was succesfully activated"
+msgstr "se ha activado correctamente"
+
+#: includes/messages-interface.php:47
+#, php-format
+msgid "<p><strong>%s</strong> %s <strong>%s</strong>.</p>"
+msgstr "<p><strong>%s</strong> %s <strong>%s</strong>.</p>"
+
+#: includes/messages-interface.php:49
+msgid "was succesfully updated to the version"
+msgstr "se ha actualizado correctamente a la versión"
+
+#: includes/messages-interface.php:59
+msgid "Operating Modes"
+msgstr "Modos de funcionamiento"
+
+#: includes/messages-interface.php:67
+msgid "Widget"
+msgstr "Widget"
+
+#: includes/messages-interface.php:70
+#, php-format
+msgid ""
+"<p>%s <a href=\"%s\" target=\"_blank\"><strong>%s</strong></a> %s <strong>"
+"%s</strong> %s.</p>"
+msgstr ""
+"<p>%s <a href=\"%s\" target=\"_blank\"><strong>%s</strong></a> %s <strong>"
+"%s</strong> %s.</p>"
+
+#: includes/messages-interface.php:71
+msgid ""
+"To show Spanish Quotes of the day inside your WP Theme, go to Appearance >"
+msgstr ""
+"Para mostrar la Frase del Día dentro de tu WP Tema, dirígete a Apariencia >"
+
+#: includes/messages-interface.php:73
+msgid "Widgets"
+msgstr "Widgets"
+
+#: includes/messages-interface.php:74
+msgid "and add the widget"
+msgstr "y añade el widget"
+
+#: includes/messages-interface.php:76
+msgid "where you prefer in any of your theme sidebars"
+msgstr "donde prefieras en cualesquiera de las barras laterales de tu tema"
+
+#: includes/messages-interface.php:85
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/messages-interface.php:90
+msgid ""
+"To show a random Spanish Quotes inside your Posts, Pages or Custom Post "
+"Types simply add the shortcode <code>[spanish_quote]</code> in any place of "
+"the post content using the visual editor"
+msgstr ""
+"Para mostrar una Frase del Dia aleatoria en tus Entradas, Páginas o Custom "
+"Post Types, simplemente añade el shortcode <code>[spanish_quote]</code> en "
+"cualquier lugar del contenido usando el editor visual"
+
+#: includes/messages-interface.php:95
+#, php-format
+msgid " %s <strong>%s</strong> %s <code>[%s]</code>. %s."
+msgstr " %s <strong>%s</strong> %s <code>[%s]</code>. %s."
+
+#: includes/messages-interface.php:96
+msgid ""
+"In the translated versions of Wordpress, you have also got a translated "
+"version of the shortcode, that in your local language"
+msgstr ""
+"En versiones traducidas de Wordpress, también dispones de una versión "
+"traducida del shortcode, que en tu idioma local"
+
+#: includes/messages-interface.php:98
+msgid "is"
+msgstr "es"
+
+#: includes/messages-interface.php:100
+msgid "Both of them are available"
+msgstr "Ambos están disponibles."
+
+#: includes/messages-interface.php:106
+msgid "See the complete documentation of Shorcodes in Wordpress.org"
+msgstr "Ver la documentación completa de Shortcode en Wordpress.org"
+
+#: includes/messages-interface.php:107
+msgid "Wordpress Shortcodes"
+msgstr "Shortcodes de Wordpress"
+
+#: includes/messages-interface.php:117
+msgid "Calling to the plugin via function"
+msgstr "Llamando al plugin vía función"
+
+#: includes/messages-interface.php:120
+#, php-format
+msgid ""
+"<p>%s <strong>%s</strong> %s <a href=\"http://codex.wordpress.org/"
+"Function_Reference/do_shortcode\" title=\"%s\" _target=\"_blank\">%s</a> %s</"
+"p>"
+msgstr ""
+"<p>%s <strong>%s</strong> %s <a href=\"http://codex.wordpress.org/"
+"Function_Reference/do_shortcode\" title=\"%s\" _target=\"_blank\">%s</a> %s</"
+"p>"
+
+#: includes/messages-interface.php:121
+msgid ""
+"Finally, if you are one of those who believe that <em>Code is Poetry</em>, "
+"remeber that you can add"
+msgstr ""
+"Finalmente, si eres uno de los que piensa que el <em>Código es Poesía</em>, "
+"recuerda que puedes añadir"
+
+#: includes/messages-interface.php:123
+msgid "in everyplace of your website with the function"
+msgstr "en cualquier lugar de tu sitio web con la función"
+
+#: includes/messages-interface.php:124
+msgid "See the complete documentation of do_shortcode() in Wordpress.org"
+msgstr "Ver la documentación completa de do_shortcode en Wordpress.org"
+
+#: includes/messages-interface.php:125
+msgid "do_shortcode()"
+msgstr "do_shortcode()"
+
+#: includes/messages-interface.php:126
+msgid "in that way:"
+msgstr "de este modo:"
+
+#: includes/messages-interface.php:133
+#, php-format
+msgid "&nbsp;&nbsp;%s&nbsp;&nbsp;%s%s%s"
+msgstr "&nbsp;&nbsp;%s&nbsp;&nbsp;%s%s%s"
+
+#: includes/messages-interface.php:134
+msgid "or the translated version"
+msgstr "o la versión traducida"
+
+#: includes/messages-interface.php:136
+msgid "spanish_quote"
+msgstr "frase_del_dia"
+
+#: includes/messages-interface.php:148
+msgid "Settings Page"
+msgstr "Página de Ajustes"
+
+#: includes/messages-interface.php:151
+#, php-format
+msgid "<p>%s <a href=\"%s\" target=\"_blank\"><strong>%s</strong></a>. %s.</p>"
+msgstr ""
+"<p>%s <a href=\"%s\" target=\"_blank\"><strong>%s</strong></a>. %s.</p>"
+
+#: includes/messages-interface.php:152
+msgid "To modify the plugin's settings, go to Settings >"
+msgstr "Para modificar las opciones del plugin, dirígete a Ajustes >"
+
+#: includes/messages-interface.php:154
+msgid "Spanish Quotes"
+msgstr "Frase del Día"
+
+#: includes/messages-interface.php:155
+#, php-format
+msgid ""
+"You also find the basic <a href=\"%s\">Instructions</a> of the various "
+"<strong>operating modes</strong>"
+msgstr ""
+"También puedes encontrar las <a href=\"%s\">Instrucciones</a> sobre los "
+"diversos <strong>Modos de funcionamiento</strong>"
+
+#: includes/messages-interface.php:164
+msgid "Documentation"
+msgstr "Documentación"
+
+#: includes/messages-interface.php:168
+msgid "For further information, please, see complete documentacion in the "
+msgstr ""
+"Para más información, por favor, consulta la documentación completa en la "
+
+#: includes/messages-interface.php:169
+msgid "Author's plugin page"
+msgstr "Página del plugin del Autor"
+
+#: includes/messages-interface.php:170
+msgid "or an abridget version in the"
+msgstr "o una versión abreviada en la"
+
+#: includes/messages-interface.php:171
+msgid "WordPress plugin page"
+msgstr "página del plugin en Wordpress"
+
+#: includes/messages-interface.php:178
+msgid "What's new in version"
+msgstr "Qué hay de nuevo en la versión"
+
+#: includes/messages-interface.php:190
+msgid "Maximum length control"
+msgstr "Control de la longitud máxima"
+
+#: includes/messages-interface.php:193
+msgid ""
+"Until now, the maximun length for the quotes was permanently set to "
+"<strong>275</strong> characters but now, if you want, you can receive longer "
+"or shorter quotes from"
+msgstr ""
+"Hasta ahora, la longitud máxima para las frases se había fijado "
+"permanentemente en <strong>275</strong>, pero ahora, si tú quieres, puedes "
+"recibir frases más largas o más cortas desde"
+
+#: includes/messages-interface.php:194
+msgid "Theme classified notable quotes in spanish | TodoPensamientos"
+msgstr "Colección de frases célebres clasificadas por temas | TodoPensamientos"
+
+#: includes/messages-interface.php:196
+msgid ""
+"Please, go to <strong>Settings Page</strong> to choose the <strong>maximum "
+"length</strong> of the quotes."
+msgstr ""
+"Por favor, dirígete a la <strong>Página de Ajustes</strong> para elegir la "
+"<strong>longitud máxima</strong> de las Frases."
+
+#: includes/messages-interface.php:204
+msgid "New Setting Page"
+msgstr "Nueva Página de Ajustes"
+
+#: includes/messages-interface.php:205
+#, php-format
+msgid ""
+"<p>In this version, the <strong><a href=\"%s\">Settings Page</a></strong> "
+"has been completely rebuilt, adding an interface with tabs for a better "
+"parameters organization and for an easier updating of the future "
+"<strong>Spanish Quote of the Day</strong> versions.</p>"
+msgstr ""
+"<p>En esta version, la <strong><a href=\"%s\">Página de Ajustes</a></strong> "
+"se ha remodelado completamente, añadiendo una interface de pestañas para una "
+"mejor organización de los parámetros y para una mejorintegración con futuras "
+"versiones de <strong>Frase del Día</strong>.</p>"
+
+#: includes/messages-interface.php:213
+msgid "New Custom CSS parameter"
+msgstr "Nuevo parámetro CSS Personalizado"
+
+#: includes/messages-interface.php:214
+msgid ""
+"<p>The new parameter <strong>Custom CSS</strong> allows you to add easily "
+"your own CCS rules for the quotes output without any additional code.</p>"
+msgstr ""
+"<p>El nuevo parámetro <strong>CSS Personalizado</strong> te permite añadir "
+"fácilmente tus propias reglas CCS para la salida de las frase en pantalla "
+"sin ningún código adicional.</p>"
+
+#: includes/widget-interface.php:104 includes/widget-interface.php:281
+msgid "Quotes of"
+msgstr "Frases de"
+
+#: includes/widget-interface.php:140
+msgid "Title"
+msgstr "Título"
+
+#~ msgid "General Options"
+#~ msgstr "Opciones generales"
+
+#~ msgid "Spanish Quotes of the Day"
+#~ msgstr "Frases del Día"
+
+#~ msgid "Add a random Quote of the Day in spanish to your website."
+#~ msgstr "Añade una Frase del Dia aleatoria en Español a tu sitio web."
+
+#~ msgid "New title"
+#~ msgstr "Nuevo Título"
+
+#~ msgid "Quotes"
+#~ msgstr "Frases"
+
+#~ msgid "Use WP filter <code>the_content</code>"
+#~ msgstr "Uso del filtro WP <code>the_content</code>"
+
+#~ msgid "Plugin Stats"
+#~ msgstr "Plugin Stats"
+
+#~ msgid "Theme classified notable quotes in spanish"
+#~ msgstr "Colección de frases célebres clasificadas por temas"
+
+#~ msgid "Notable Quotes in Spanish"
+#~ msgstr "Frases Célebres"
+
+#~ msgid "<strong>Spanish Quote of the Day</strong>"
+#~ msgstr "<strong>Frase del Día</strong>"
+
+#~ msgid "was installed succesfully.<br /><br />"
+#~ msgstr "se ha instalado correctamente.<br /><br />"
+
+#~ msgid "<strong>Widget</strong><br />"
+#~ msgstr "<strong>Widget</strong><br />"
+
+#~ msgid "and add the "
+#~ msgstr "y añade el "
+
+#~ msgid "widget"
+#~ msgstr "widget"
+
+#~ msgid "where you prefer in any of your theme sidebars.<br /><br />"
+#~ msgstr ""
+#~ "donde prefieras en cualesquiera de las barras laterales de tu tema.<br /"
+#~ "><br />"
+
+#~ msgid "<strong>Shortcode</strong><br />"
+#~ msgstr "<strong>Shorcode</strong><br />"
+
+#~ msgid ""
+#~ "In the translated versions of Wordpress, you have also a translated "
+#~ "version of the shortcode, that in your local language is <code>["
+#~ msgstr ""
+#~ "En versiones traducidas de Wordpress, también dispones de una versión "
+#~ "traducida del shortcode, que en tu idioma local es <code>["
+
+#~ msgid "]</code>"
+#~ msgstr "]</code>"
+
+#~ msgid "<strong>Calling to the plugin via function</strong><br />"
+#~ msgstr "<strong>Llamando al plugin vía función</strong><br />"
+
+#~ msgid "<strong>Spanish Quotes of the Day</strong>"
+#~ msgstr "<strong>Frase del Día</strong>"
+
+#~ msgid ""
+#~ "<strong>A)</strong> For showing Spanish Quotes inside your WP Theme, go "
+#~ "to Appearance >"
+#~ msgstr ""
+#~ "<strong>A)</strong> Para mostrar la Frase del Día dentro de tu WP Tema, "
+#~ "dirígete a Apariencia >"
+
+#~ msgid "where you prefer.<br /><br />"
+#~ msgstr "donde prefieras.<br /><br />"
+
+#~ msgid ""
+#~ "<strong>B)</strong> In addition, you have also the shortcode "
+#~ "<strong>[spanish_quote]</strong>"
+#~ msgstr ""
+#~ "<strong>B)</strong> Además, también dispones del shortcode "
+#~ "<strong>[spanish_quote]</strong>"
+
+#~ msgid ""
+#~ "and the translated version of the shortcode that in your local language "
+#~ "is <strong>["
+#~ msgstr ""
+#~ "y la versión traducida del shortcode que en tu idioma local es <strong>["
+
+#~ msgid "]</strong>, both of them allow you"
+#~ msgstr "]</strong>, ambos te permiten"
+
+#~ msgid ", that allows you"
+#~ msgstr ", que te permite"
+
+#~ msgid ""
+#~ "to add a random spanish quote directly inside the content of your Posts, "
+#~ "Pages or Custom Post Types. "
+#~ msgstr ""
+#~ "añadir una frase del dia aleatoria dentro del contenido de tus Entradas, "
+#~ "Páginas o Custom Post Types. "
+
+#~ msgid ""
+#~ "<strong>C)</strong> Finally, if you are one of those who believe that "
+#~ "<em>Code is Poetry</em>, remeber that you can add"
+#~ msgstr ""
+#~ "Finalmente, si eres uno de los que piensa que el <em>Código es Poesía</"
+#~ "em>, recuerda que puedes añadir"
+
+#~ msgid ""
+#~ "&nbsp;&nbsp;&nbsp;Or even, under your responsability and if you actually "
+#~ "know what are you doing, you can directly call to <em>the class</em> in "
+#~ "that way:"
+#~ msgstr ""
+#~ "&nbsp;&nbsp;&nbsp;O incluso, bajo tu responsabilidad y si realmente sabes "
+#~ "lo que estás haciendo, puede llamar directamente a <em>la clase</em> de "
+#~ "este modo:"
+
+#~ msgid ""
+#~ "For for more information, please, see complete documentacion in the "
+#~ "plugin's page."
+#~ msgstr ""
+#~ "Para más información, por favor, consulta la documentación completa en la "
+#~ "página del plugin."
+
+#, fuzzy
+#~ msgid "Spanish Quotes of the Day (Frase del Día)"
+#~ msgstr "Frase del Día"
+
+#~ msgid "&nbsp;&nbsp;or&nbsp;&nbsp;&lt;?php echo do_shortcode('["
+#~ msgstr "&nbsp;&nbsp;o&nbsp;&nbsp;&lt;?php echo do_shortcode('["
+
+#~ msgid "]'); ?&gt;"
+#~ msgstr "]'); ?&gt;"
+
+#~ msgid ""
+#~ "widgets.php\"><strong>Widgets</strong></a> and add the widget \"Spanish "
+#~ "Quotes\" where you prefer.<br /><br />"
+#~ msgstr ""
+#~ "widgets.php\"><strong>Widgets</strong></a> y añade el widget \"Frase del "
+#~ "Día\" donde prefieras.<br /><br />"
+
+#~ msgid ""
+#~ "Finally, if you are one of those who believe that <em>Code is Poetry</"
+#~ "em>, remeber that you can add Spanish Quotes in everyplace with the "
+#~ "function <strong>do_shortcode()</strong>, in that way <pre>&nbsp;&nbsp;"
+#~ "&lt;?php echo do_shortcode('["
+#~ msgstr ""
+#~ "Finalmente,, si tú eres uno de esas personas que cree que el <em>Código "
+#~ "es Poesía</em>, recuerda que puedes añadir \"frases del Día\" en "
+#~ "cualquier lugar con la función <strong>do_shortcode()</strong>, siguiendo "
+#~ "este esquema <pre>&nbsp;&nbsp;echo do_shortcode('["

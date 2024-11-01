@@ -1,0 +1,12 @@
+/* 
+ * Plugin:      Spanish Quotes of the Day (Frase del Día)
+ * Path:        /css
+ * File:        spanish-quotes.css
+ * Version:     1.3.0
+ * Since:       1.2.0
+ * Description: Minimum CSS for quote displaying
+ */
+#cool-quote { display:block; margin: 1em 0; }
+.quote-text, .author-tag { line-height: 1.45; }
+.quote-author-link a {font-style:italic }
+.quote-credits { display:block; font-variant:small-caps; font-weight: bold; font-size: 0.9em }
